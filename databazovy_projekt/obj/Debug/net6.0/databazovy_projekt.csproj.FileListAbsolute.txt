@@ -1,0 +1,4 @@
+C:\Users\maxta\source\repos\databazovy_projekt\obj\Debug\net6.0\databazovy_projekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maxta\source\repos\databazovy_projekt\obj\Debug\net6.0\databazovy_projekt.AssemblyInfoInputs.cache
+C:\Users\maxta\source\repos\databazovy_projekt\obj\Debug\net6.0\databazovy_projekt.AssemblyInfo.cs
+C:\Users\maxta\source\repos\databazovy_projekt\obj\Debug\net6.0\databazovy_projekt.csproj.CoreCompileInputs.cache
