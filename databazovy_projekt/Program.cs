@@ -15,22 +15,23 @@ namespace databazovy_projekt
 
         static void Stuff()
         {
-            string connstr = @"Data Source=193.85.203.188;Initial Catalog=kremlik;User ID=kremlik;Password=pzoMwfFn_22";
-            conn = new SqlConnection(constr);
-            
-            conn.Open();
-
-            string sql = "select cislo from cool_table";
-
-            SqlCommand com = new SqlCommand(sql, conn);
-            SqlDataReader dataReader = com.ExecuteReader();
-
-            while (dataReader.Read())
-            {
-                Console.WriteLine(dataReader.GetString(0));
+            Invoker i = new Invoker();
+            string Input;
+            while (true) {
+                Input = Console.ReadLine();
+                if (Input == "exit")
+                {
+                    break;
+                }
+                if (i.execute(Input) == false)
+                {
+                    Console.WriteLine("unknown command");
+                }
+                
             }
-            Console.WriteLine("reading complete");
-            conn.Close();
+            DatabaseSingleton.Close();
+
+
         }
     }
 }

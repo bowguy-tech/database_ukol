@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maxta\\source\\repos\\databazovy_projekt\\databazovy_projekt.csproj": {}
+    "C:\\Users\\maxta\\source\\repos\\database_ukol\\databazovy_projekt\\databazovy_projekt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maxta\\source\\repos\\databazovy_projekt\\databazovy_projekt.csproj": {
+    "C:\\Users\\maxta\\source\\repos\\database_ukol\\databazovy_projekt\\databazovy_projekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maxta\\source\\repos\\databazovy_projekt\\databazovy_projekt.csproj",
+        "projectUniqueName": "C:\\Users\\maxta\\source\\repos\\database_ukol\\databazovy_projekt\\databazovy_projekt.csproj",
         "projectName": "databazovy_projekt",
-        "projectPath": "C:\\Users\\maxta\\source\\repos\\databazovy_projekt\\databazovy_projekt.csproj",
+        "projectPath": "C:\\Users\\maxta\\source\\repos\\database_ukol\\databazovy_projekt\\databazovy_projekt.csproj",
         "packagesPath": "C:\\Users\\maxta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maxta\\source\\repos\\databazovy_projekt\\obj\\",
+        "outputPath": "C:\\Users\\maxta\\source\\repos\\database_ukol\\databazovy_projekt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maxta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,9 +45,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.6, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [

@@ -1,0 +1,20 @@
+<databaze>
+	<zakaznik>
+		<jmeno>max</jmeno>
+		<prijmeni>olsbro</prijmeni>
+		<mesto>praha</mesto>
+		<ulice>safarova</ulice>
+		<cislo>3</cislo>
+	</zakaznik>
+	<prodejce>
+		<jmeno>alza.cz</jmeno>
+		<mesto>praha</mesto>
+		<ulice>safarova</ulice>
+		<cislo>3</cislo>
+	</prodejce>
+	<polozka>
+		<jmeno>hotdog</jmeno>
+		<prodejce>alza.cz</prodejce>
+		<cena>30</cena>
+	</polozka>
+</databaze>
